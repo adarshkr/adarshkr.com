@@ -1,0 +1,109 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Adarsh K R -  Bengaluru based Nodejs / Ember.js / React.js / Angular / Full Stack Developer">
+    <meta name="description" content="With every line of code, I strive to make the web a beautiful place.">
+    <meta name="keyword" content="Front End Developer, Back End Developer, UI Developer, Full Stack Developer, Ember.js, Angular React.js, Node.js, Hapijs, Lambda, Python">
+    <title> Adarsh K R - Bengaluru based Full Stack Developer </title>
+    <style>
+        .text-body {
+            height: 80vh;
+            background-color: rgba(0, 0, 0, 0.85);
+            padding: 10px;
+            color: #f0f0f0;
+            text-shadow: #000 0px 1px 0px;
+            font-family: "Consolas", "Courier New", "Courier";
+            font-size: 1.75em;
+            line-height: 1.40em;
+            font-weight: 500;
+            text-align: left;
+            overflow: hidden;
+            -webkit-transition: all 0.5s ease-out;
+            -moz-transition: all 0.5s ease-out;
+            -ms-transition: all 0.5s ease-out;
+            -o-transition: all 0.5s ease-out;
+            transition: all 0.5s ease-out;
+        }
+
+        .shift-text .text-body {
+            height: 120px;
+        }
+
+        .typed-cursor {
+            opacity: 1;
+            font-weight: 100;
+            -webkit-animation: blink 0.7s infinite;
+            -moz-animation: blink 0.7s infinite;
+            -ms-animation: blink 0.7s infinite;
+            -o-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+        }
+
+        .title-bar {
+            padding: 5px 0;
+            font-family: "Lucida Grande", sans-serif;
+            font-size: 0.75em;
+            text-align: center;
+            text-shadow: rgba(255, 255, 255, 0.8) 0px 1px 0px;
+            background-color: #f8f8f8;
+            background-image: -webkit-linear-gradient(top, #e8e8e8, #bcbbbc);
+            background-image: -moz-linear-gradient(top, #e8e8e8, #bcbbbc);
+            background-image: linear-gradient(top, #e8e8e8, #bcbbbc);
+            box-shadow: inset rgba(255, 255, 255, 0.7) 0px 1px 1px;
+            border-bottom: #6a6a6a 1px solid;
+        }
+
+        .text-editor-wrap {
+            display: block;
+            margin: auto;
+            width: 60%;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.8) 0px 20px 70px;
+            clear: both;
+            overflow: hidden;
+            -webkit-transition: all 0.5s ease-out;
+            -moz-transition: all 0.5s ease-out;
+            -ms-transition: all 0.5s ease-out;
+            -o-transition: all 0.5s ease-out;
+            transition: all 0.5s ease-out;
+        }
+
+        @media(max-width: 768px) {
+            .text-editor-wrap {
+                width: 90%
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="text-editor-wrap">
+        <div class="title-bar"><span class="title">Adarsh K R - Full Stack Developer
+        </div>
+        <div class="text-body">
+            $ <span id="typed">Hello, my name is Adarsh K R! </span>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+    <script src="typed.min.js"></script>
+    <script>
+        $(function () {
+            $("#typed").typed({
+                strings: ["Based out of Bengaluru, India. Specializing in web development.",
+                    "At the moment I'm primarily working on Hapijs and AWS Services ^2000",
+                    "Skilled in HTML5, CSS3, JavaScript, jQuery, Node.js(Hapijs, Express), AWS Services, Ember.js, React.js, Angular, Python, FastApi, Mongodb, Postgres, GraphQL, PHP, WordPress and Mysql. ^3000",
+                    "Wanna get in touch?. send an email to adarshkr13@icloud.com and ~let's talk. ^3000"
+                ],
+                typeSpeed: 10,
+                backDelay: 1000,
+                loop: true,
+                smartBackspace: false
+            });
+
+        });
+    </script>
+</body>
+
+</html>
